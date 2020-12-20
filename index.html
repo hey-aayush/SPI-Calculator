@@ -16,43 +16,43 @@
 </head>
 <body>
     <section id="title">
-        <div class="container-fluid">
-            <!-- nav div to specify bkgrd clr light/drk -->
-            <nav class="navbar navbar-expand-lg navbar-dark"> 
-                <!-- div to introduct margins -->
-                <div class="container-fluid">
-                    <!-- Brand Name -->
-                    <a href="" class="navbar-brand"> SPI Calculate</a>
-                    <!-- hamberg btn (if order of brnd and btn change btn -left and brand-right) -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <!-- collapse menu -->
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"><!--same id to toggle button-->
-                        <ul class="navbar-nav ml-auto"> 
-                            <!-- items -->
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Steps to Calculate</a>
-                            </li> 
-                            <li class="nav-item">
-                                <a href="" class="nav-link">Calculate Now</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="" class="nav-link">How it's Calculated</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>          
-            </nav>
-            <div class="row">
+      <div class="container-fluid">
+          <!-- nav div to specify bkgrd clr light/drk -->
+          <nav class="navbar navbar-expand-lg navbar-dark"> 
+              <!-- div to introduct margins -->
+              <div class="container-fluid">
+                  <!-- Brand Name -->
+                  <a href="" class="navbar-brand"> SPI Calculate</a>
+                  <!-- hamberg btn (if order of brnd and btn change btn -left and brand-right) -->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <!-- collapse menu -->
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"><!--same id to toggle button-->
+                      <ul class="navbar-nav ml-auto"> 
+                          <!-- items -->
+                          <li class="nav-item">
+                              <a href="" class="nav-link">Steps to Calculate</a>
+                          </li> 
+                          <li class="nav-item">
+                              <a href="" class="nav-link">Calculate Now</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="" class="nav-link">How it's Calculated</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>          
+          </nav>
+          <div class="row">
                 <div class="col-lg-6">
-                  <div class="container">
+                  <div class="tag-container">
                     <h1 id="tagline">Estimate and calculate your a SPI for Semester.</h1>
                     <button class="btn btn-outline-light calculate-btn" type="button"><i class="fas fa-poll"></i> Calculate my SPI</button>
                   </div>
                 </div>
                 <div class="col-lg-6">
-                  <div class="container">
+                  <div class="tag-container">
                     <img class="title-img" src="Resources/TitleImg.png" width="400px" height="400px" alt="Funny-result">
                   </div>
                 </div>            
@@ -86,6 +86,15 @@
           </div>
         </div>
       </section>
-    
+      <!-- Calculator -->
+      <section id="Calculator">
+        <div class="input-group mb-3">
+          <span class="input-group-text">Grade-1</span>
+          <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <span class="input-group-text">Credit-1</span>
+          <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+          <span class="input-group-text">Score-1</span>
+        </div>
+      </section>
 </body>
 </html>

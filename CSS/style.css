@@ -1,15 +1,16 @@
 body{
-    width:fit-content;
+    width: fit-content;
+    margin: 0%;
+    min-width: 100%;
 }
 
 /* title section */
-
 #title{
     background-image: linear-gradient(to bottom right, red, yellow);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 75%);
 }
 
-.container{
+.tag-container{
     text-align: center;
     margin-top: 2%;
 }
