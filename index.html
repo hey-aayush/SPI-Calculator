@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Resources/stadistics.png" type="image/gif" sizes="16x16">
+    <title>SPI Calculator</title>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap" rel="stylesheet">
+<!-- CSS File -->
+  <link rel="stylesheet" href="./CSS/style.css">
+  <script src="https://kit.fontawesome.com/bbbc2b228e.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="title">
+        <div class="container-fluid">
+            <!-- nav div to specify bkgrd clr light/drk -->
+            <nav class="navbar navbar-expand-lg navbar-dark"> 
+                <!-- div to introduct margins -->
+                <div class="container-fluid">
+                    <!-- Brand Name -->
+                    <a href="" class="navbar-brand"> SPI Calculate</a>
+                    <!-- hamberg btn (if order of brnd and btn change btn -left and brand-right) -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapse menu -->
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"><!--same id to toggle button-->
+                        <ul class="navbar-nav ml-auto"> 
+                            <!-- items -->
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Steps to Calculate</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Calculate Now</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">How it's Calculated</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>          
+            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                  <div class="container">
+                    <h1 id="tagline">Estimate and calculate your a SPI for Semester.</h1>
+                    <button class="btn btn-outline-light calculate-btn" type="button"><i class="fas fa-poll"></i> Calculate my SPI</button>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="container">
+                    <img class="title-img" src="Resources/TitleImg.png" width="400px" height="400px" alt="Funny-result">
+                  </div>
+                </div>            
+            </div>    
+        </div>
+    </section>
+
+    <section id="Steps">
+
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="Step">
+              <i class="fas fa-marker fa-5x"></i>
+              <h3>Enter Details</h3>
+              <p>Enter No of Subjects and their Credits</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="Step">
+              <i class="fab fa-wpforms fa-5x"></i>
+              <h3>Fill Grade</h3>
+              <p>Fill your estimated grades for each Subjects.</p> 
+            </div>           
+          </div>
+          <div class="col-lg-4">
+            <div class="Step">
+                <i class="fas fa-graduation-cap fa-5x"></i>
+              <h3>Get your SPI</h3>
+              <p>And that's it.Get your SPI</p>  
+            </div> 
+          </div>
+        </div>
+      </section>
+    
+</body>
+</html>

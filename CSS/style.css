@@ -1,0 +1,69 @@
+/* title section */
+
+#title{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 75%);
+}
+
+.container{
+    text-align: center;
+    margin: 35px;
+}
+
+.navbar-brand{
+    margin: 10px 20px;
+    font-weight: 800;
+    font-size: 2.2rem;
+}
+
+.nav-item{
+    margin: 10px 20px;
+    font-size: 1.2rem;
+}
+
+#tagline{
+    font-weight: 900;
+    font-size: 3rem;
+    color: antiquewhite;
+    font-style: italic;
+}
+
+.calculate-btn{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+/* Steps to Do Section */
+
+.Steps{
+    margin: 10px 10px;
+}
+
+.Step{
+    text-align: center;
+    margin: 30px 20px;
+}
+
+.Step h3{
+    font-style: oblique;
+}
+
+.Step p{
+    color: gray;
+}
+
+.fas{
+    margin: 15px;
+}
+
+.fab{
+    margin: 15px;
+}
+
+.fas:hover{
+    color:rgb(255, 73, 28) ;
+}
+
+.fab:hover{
+    color:rgb(255, 73, 28) ;
+}
