@@ -7,17 +7,17 @@
 
 .container{
     text-align: center;
-    margin: 35px;
+    margin-top: 2%;
 }
 
 .navbar-brand{
-    margin: 10px 20px;
+    margin: 2% 5%;
     font-weight: 800;
     font-size: 2.2rem;
 }
 
 .nav-item{
-    margin: 10px 20px;
+    margin: 0.5% 1.5%;
     font-size: 1.2rem;
 }
 
@@ -29,19 +29,19 @@
 }
 
 .calculate-btn{
-    margin-top: 30px;
-    padding: 10px;
+    margin-top: 5%;
+    padding: 0.5% 5%;
 }
 
 /* Steps to Do Section */
 
-.Steps{
-    margin: 10px 10px;
+#Steps{
+    margin: 5% 2%;
 }
 
 .Step{
     text-align: center;
-    margin: 30px 20px;
+    margin: 5% 1%;
 }
 
 .Step h3{
@@ -53,11 +53,11 @@
 }
 
 .fas{
-    margin: 15px;
+    margin: 1.5%;
 }
 
 .fab{
-    margin: 15px;
+    margin: 1.5%;
 }
 
 .fas:hover{
