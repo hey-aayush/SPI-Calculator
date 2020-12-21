@@ -71,3 +71,15 @@ body{
 .fab:hover{
     color:rgb(255, 73, 28) ;
 }
+
+/* Calculator */
+
+#Calculator{
+    margin: 3%;
+    background-color:rgb(255, 73, 28) ;
+    padding: 2%;
+}
+
+.card{
+    text-align: center;
+}
