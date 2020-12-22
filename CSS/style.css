@@ -6,7 +6,6 @@ body{
 /* title section */
 #title{
     background-image: linear-gradient(to bottom right, red, yellow);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%, 0% 75%);
 }
 
 .tag-container{
@@ -74,12 +73,50 @@ body{
 
 /* Calculator */
 
-#Calculator{
-    margin: 3%;
-    background-color:rgb(255, 73, 28) ;
+.details{
+    margin: 5%;
+    border: 1px solid wheat;
+    padding: 2%;
+
+}
+
+.details .fas{
+    color: antiquewhite;
+    display: inline;
+}
+.details .fas:hover{
+    color: antiquewhite;
+}
+.details h2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: antiquewhite;
+    font-style: italic;
+    display: inline;
+}
+
+.details input{
+    margin: 2%;
+    padding: 3%;
+}
+.details .row{
+    margin: 2%;
     padding: 2%;
 }
 
-.card{
+.details button{
+    margin: auto;
+    padding: 1%;
+}
+
+#Calculator{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    padding: 5%;
     text-align: center;
+}
+
+.card{
+    margin: auto;
+    text-align: center;
+    max-width: 650px;
 }
