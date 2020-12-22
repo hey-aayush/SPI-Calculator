@@ -136,6 +136,11 @@ body{
     display: none;
 }
 
+.result{
+    margin: 3%;
+    padding: 2%;
+}
+
 footer{
     text-align: center;
     margin-top: 2%;

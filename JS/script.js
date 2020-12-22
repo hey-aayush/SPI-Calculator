@@ -40,7 +40,12 @@ function calculateSPI(){
             score_Sum +=cur_credit*cur_score;
             credit_Sum +=cur_credit;
         }
-        return (score_Sum/credit_Sum);
+
+        var spi=score_Sum/credit_Sum
+
+        document.getElementById("total-credit").innerHTML=credit_Sum.toString();
+        document.getElementById("total-spi").innerHTML= spi.toString();
+        document.querySelector(".result").classList.remove("hidden-card");
     }
 }
 
@@ -56,3 +61,5 @@ function validateForm(){
     }
     return true;
 }
+
+document.querySelector(".card button").addEventListener("click",calculateSPI);
