@@ -89,7 +89,7 @@ body{
 }
 .details h2{
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2rem;
     color: antiquewhite;
     font-style: italic;
     display: inline;
@@ -99,7 +99,7 @@ body{
     margin: 1%;
     padding: 1.5%;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: antiquewhite;
     
 }

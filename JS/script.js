@@ -1,5 +1,3 @@
-document.querySelector(".details button").addEventListener("click",submitBtn);
-
 function submitBtn(){
     var noOfSub = parseInt(document.getElementById("noOfSub").value);
     if (noOfSub>0){
@@ -7,4 +5,6 @@ function submitBtn(){
     }else{
         document.getElementById("invalid-input").classList.remove("hidden-card");
     }
-};
+}
+
+document.querySelector(".details button").addEventListener("click",submitBtn);
