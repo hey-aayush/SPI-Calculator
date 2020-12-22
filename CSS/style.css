@@ -80,7 +80,7 @@ body{
 
 }
 
-.details .fas{
+.details .fas,.details .fab{
     color: antiquewhite;
     display: inline;
 }
@@ -95,9 +95,19 @@ body{
     display: inline;
 }
 
+.details h3{
+    margin: 1%;
+    padding: 1.5%;
+    font-weight: 900;
+    font-size: 2rem;
+    color: antiquewhite;
+    
+}
+
 .details input{
     margin: 2%;
     padding: 3%;
+    text-align: center;
 }
 .details .row{
     margin: 2%;
@@ -113,12 +123,17 @@ body{
     background-image: linear-gradient(to bottom right, red, yellow);
     padding: 5%;
     text-align: center;
+   
 }
 
 .card{
     margin: auto;
     text-align: center;
     max-width: 650px;
+}
+
+.hidden-card{
+    display: none;
 }
 
 footer{

@@ -94,16 +94,19 @@
           <h2>Enter Details</h2>
           <div class="row g-3">
             <div class="col-md-6 col-lg-6">
-              <input id="row" class="form-control" type="text" name= "num1" placeholder="Row">
+              <i class="fab fa-wpforms fa-5x"></i>
+              <h3>No. of Subjects :</h3>
             </div>
             <div class="col-md-6 col-lg-6">
-              <input id="col" class="form-control" type="text" name= "num2" placeholder="Col">
+              <input id="noOfSub" class="form-control" type="text" name= "noOfSub" placeholder="Number of Subjects">
+              <span id="invalid-input" class="hidden-card">*Enter a valid Number.</span>
             </div>
+            
           </div>                   
-          <button type="submit" name="submit" class="btn btn-outline-light">Calculate</button>
+          <button type="submit" name="submit" class="btn btn-outline-light">Submit</button>
         </div>
         
-        <div class="card">
+        <div class="card hidden-card" id="table-card">
           <div class="card-header">
             <h2>SPI Calculator</h2>
           </div>
@@ -235,12 +238,13 @@
             </table>
           </div>
           <div class="cord-footer">
-            <h3> Total SPI - 8.92</h3>
+            <h3> <button type="submit" name="submit" class="btn btn-outline-dark">Calculate</button></h3>
           </div>
         </div>
       </section>
       <footer>
         <p class="footer">© Made with ❤️ by Aayush Kumar Shandilya</p>
       </footer>
+      <script src="./JS/script.js"></script>
 </body>
 </html>
