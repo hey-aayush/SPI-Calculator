@@ -32,13 +32,13 @@
                       <ul class="navbar-nav ml-auto"> 
                           <!-- items -->
                           <li class="nav-item">
-                              <a href="" class="nav-link">Steps to Calculate</a>
+                              <a href="#Steps" class="nav-link">Steps to Calculate</a>
                           </li> 
                           <li class="nav-item">
-                              <a href="" class="nav-link">Calculate Now</a>
+                              <a href="#Calculator" class="nav-link">Calculate Now</a>
                           </li>
                           <li class="nav-item">
-                              <a href="" class="nav-link">How it's Calculated</a>
+                              <a href="#method" class="nav-link">How it's Calculated</a>
                           </li>
                       </ul>
                   </div>
@@ -48,7 +48,9 @@
                 <div class="col-lg-6">
                   <div class="tag-container">
                     <h1 id="tagline">Estimate and calculate your a SPI for Semester.</h1>
-                    <button class="btn btn-outline-light calculate-btn" type="button"><i class="fas fa-poll"></i> Calculate my SPI</button>
+                    <a href="#Calculator">
+                      <button class="btn btn-outline-light calculate-btn" type="button"><i class="fas fa-poll"></i>Calculate my SPI</button>
+                    </a>
                   </div>
                 </div>
                 <div class="col-lg-6">
@@ -132,6 +134,20 @@
         <div class="result hidden-card">
           <h4> <em>Total Credit :- <p id="total-credit"></p> Calculated SPI :- <p id="total-spi"></p></em></h4>
         </div>
+      </section>
+
+      <section id="method">
+
+        <h2 class="heading"> SPI Calculation : </h2>
+        <p class="content">A Semester Performance Index (SPI) will be computed for each semester in a scale of 10. The SPI will be
+          calculated as follows: 
+          <br>
+          SPI = (C1*G1+ C2*G2+ C3*G3+ . . . + Cn*Gn) / (C1+ C2+ C3+ . . . + Cn)
+          <br>
+          where, n is the number of courses registered during the semester, Ci is the number of credits allotted to a
+          particular course, and Gi is the grade points corresponding to the grade awarded for the course. 
+        </p>
+
       </section>
       <footer>
         <p class="footer">© Made with ❤️ by Aayush Kumar Shandilya</p>
