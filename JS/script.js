@@ -33,7 +33,7 @@ function calculateSPI(){
     var cur_score;
     var score_Sum=0;
     var credit_Sum=0;
-    if (validateForm){
+    if (validateForm()){
         for(var i=0;i<document.querySelectorAll(".credit").length;i++){
             cur_credit=parseInt(document.querySelectorAll(".credit")[i].value);
             cur_score=parseInt(document.querySelectorAll(".score")[i].value);
@@ -41,7 +41,7 @@ function calculateSPI(){
             credit_Sum +=cur_credit;
         }
 
-        var spi=score_Sum/credit_Sum
+        var spi=(score_Sum/credit_Sum).toFixed(2);
 
         document.getElementById("total-credit").innerHTML=credit_Sum.toString();
         document.getElementById("total-spi").innerHTML= spi.toString();
@@ -55,7 +55,7 @@ function validateForm(){
     for(var i=0;i<document.querySelectorAll(".credit").length;i++){
         cur_credit=document.querySelectorAll(".credit")[i].value;
         cur_score=document.querySelectorAll(".score")[i].value;
-        if(cur_credit.NaN||cur_credit<0||cur_score.NaN||cur_score<0){
+        if(isNaN(cur_credit)||cur_credit<=0||isNaN(cur_score)||cur_score<=0||cur_credit==""||cur_score==""){
             return false;
         }
     }
