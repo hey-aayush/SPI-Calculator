@@ -43,9 +43,14 @@ function calculateSPI(){
 
         var spi=(score_Sum/credit_Sum).toFixed(2);
 
+        document.getElementById("validation-feedback").classList.add("hidden-card");
+
+
         document.getElementById("total-credit").innerHTML=credit_Sum.toString();
         document.getElementById("total-spi").innerHTML= spi.toString();
         document.querySelector(".result").classList.remove("hidden-card");
+    }else{
+        document.getElementById("validation-feedback").classList.remove("hidden-card");
     }
 }
 

@@ -123,9 +123,11 @@ body{
     background-image: linear-gradient(to bottom right, red, yellow);
     padding: 5%;
     text-align: center;
-   
 }
 
+#validation-feedback{
+    color: red;
+}
 .card{
     margin: auto;
     text-align: center;
