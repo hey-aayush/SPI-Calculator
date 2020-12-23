@@ -19,7 +19,7 @@ function createTable()
         tbody += '<tr class = "table-row">';
         tbody += '<td>Course-'+(parseInt(i)+1)+'</td>'
         tbody += '<td><input class="form-control credit" type="text" name= "credit-'+(parseInt(i)+1)+'" placeholder="credit-'+(parseInt(i)+1)+'"></td>'
-        tbody += '<td><input class="form-control score" type="text" name= "score-'+(parseInt(i)+1)+'" placeholder="score-'+(parseInt(i)+1)+'"></td>'
+        tbody += '<td><input class="form-control score" type="text" name= "grade-'+(parseInt(i)+1)+'" placeholder="grade-'+(parseInt(i)+1)+'"></td>'
         tbody += '</tr>\n';
     }
     
