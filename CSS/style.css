@@ -134,13 +134,32 @@ body{
     max-width: 850px;
 }
 
+.card-header h2,.card-header i{
+    display: inline;
+}
+
 .hidden-card{
     display: none;
 }
 
 .result{
-    margin: 3%;
-    padding: 2%;
+    margin: 5%;
+    padding: 2%;  
+    border: 1px solid white; 
+}
+
+.result h2{
+    color: white;
+    text-decoration: underline;
+    margin: 2%;
+}
+
+.result p{
+    display: inline;
+}
+
+#total-spi{
+    text-decoration: underline;
 }
 
 #method{
